@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <form class="form">
+    <span ><strong>Contact Us</strong></span>
+    
+    <div class="name">
+      <div class="fname">
+        <p>First Name</p>
+        <input type="text" required placeholder="Harsh">
+      </div>
+      
+      <div class="lname">
+        <p>Last Name</p>
+        <input type="text" required placeholder="Patel">
+      </div>
+    </div>
+
+    <div >
+      <p>Email Address</p>
+      <input class="email" required placeholder="email@example.com">
+    </div>
+
+    <p>Query Type</p>
+    <div class="name">
+      <div>
+        <input type="radio" required> 
+        <label>General Enquiry</label>
+      </div>
+
+      <div>
+        <input type="radio" required> 
+        <label>Support request</label>
+      </div>
+    </div>
+
+    <p><label for="messge">Message</label></p>
+    <textarea name="message" id="message" rows="4" cols="50"></textarea>
+
+    <div class="">
+      <input type="checkbox" required>
+      <label>I consent to being contacted by the team</label>
+    </div>
+    <input type="submit" class="btn">
+
+  </form>
+
+  </div>
+  
+  
+</body>
+</html>
